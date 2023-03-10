@@ -1,0 +1,13 @@
+# Script that prompts the user to enter radius of a circle and calculate an area and  circumference 
+# Stores the user input as an integer in the 'pi' variable
+pi = int(input("What's the value of pi?"))
+# Stores the user input as an integer in the 'pi' variable
+area = int(input("What's the area of circle?"))
+# Stores the user input as an integer in the 'pi' variable
+circumference = int(input("What's the circumference?"))
+# Stores the user input as an integer in the 'circumference' variable
+# Calculating perimeter of the triangle
+area_of_circle = ( pi * radius * radius)
+circumference_of_circle = (c = 2 * pi * r)
+print(('radius of circle is'), radius of circle)
+

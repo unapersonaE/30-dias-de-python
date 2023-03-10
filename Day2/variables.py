@@ -29,3 +29,36 @@ print(type, is_married)
 print(type, is_true)
 print(type, is_light_on)
 print('la longitud de mi nombre es', len(first_name))
+print(len('elena')== len('elena aperador'))
+num_one = 5
+num_two = 4
+total = num_one + num_two
+diff = num_two - num_one
+product = num_two * num_one
+divide = num_one / num_two
+remainder = num_two % num_one
+exp = num_one ** num_two
+floor_division = num_one // num_two
+
+print (total)
+print(diff)
+print(product)
+print(divide)
+print(remainder)
+print(exp)
+print(floor_division)
+
+# Calculating the area and circumference of a circle
+radius = int(input("Give me radius of a circle: "))
+square_of_radius = radius * radius
+pi = 3.14
+area_of_circle = pi * square_of_radius
+print(area_of_circle)
+
+circum_of_circle = 2 * pi * radius
+print(circum_of_circle)
+first_name = input('What is your name: ')
+age = input('How old are you? ')
+
+print(first_name)
+print(age)

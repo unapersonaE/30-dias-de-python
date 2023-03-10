@@ -1,0 +1,13 @@
+# Get length and width of a rectangle using prompt
+ #Script that prompts the user to enter length and width of the rectangle and calculate its area and perimeter of this rectangle
+# Stores the user input as an integer in the 'length' variable
+length = int(input("What's the length of the rectangle?"))
+# Stores the user input as an integer in the 'width' variable
+width = int(input("What's the width of the rectangle?"))
+# Calculating area and perimeter of a rectangle
+area = length*width
+perimeter = (2*(length + width))
+area_of_rectangle = (length*width)
+perimeter_of_rectangle = (2*(length + width))
+print('perimeter of rectangle is:', perimeter_of_rectangle)
+print('area of rectangle is:', area_of_rectangle)
